@@ -1,0 +1,10 @@
+diff a/src/main/java/com/sandbox/controller/HomeController.java b/src/main/java/com/sandbox/controller/HomeController.java	(rejected hunks)
+@@ -21,7 +21,7 @@
+ 
+ 	@RequestMapping(name = "/getAllEmployees", method = RequestMethod.GET)
+ 	public List<Employee> getAllEmployee() {
+-
++		emplist.clear();
+ 		Employee emp1 = new Employee();
+ 		emp1.setId("0");
+ 		emp1.setFname("John");
