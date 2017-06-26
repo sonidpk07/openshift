@@ -22,6 +22,7 @@ public class HomeController {
 	@RequestMapping(name = "/getAllEmployees", method = RequestMethod.GET)
 	public List<Employee> getAllEmployee() {
 		emplist.clear();
+
 		Employee emp1 = new Employee();
 		emp1.setId("0");
 		emp1.setFname("John");
